@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2O_TECH - Accueil</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Intégration de Bootstrap pour le style (optionnel) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- En-tête du site -->
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Bienvenue chez H2O_TECH</h1>
+        <p>Votre partenaire en reprographie, informatique et commerce</p>
+    </header>
+
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">H2O_TECH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" target="_blank">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html" target="_blank">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html" target="_blank">Boutique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" target="_blank">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Flyer interactif (carrousel d'images) -->
+    <section id="flyer" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/reprographie.jpg" class="d-block w-100" alt="Reprographie">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Reprographie</h5>
+                    <p>Copie, saisie, conception de maquettes, reliure, impression.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/informatique.jpg" class="d-block w-100" alt="Informatique">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Informatique</h5>
+                    <p>Formation et maintenance logicielle et matérielle.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/commerce.jpg" class="d-block w-100" alt="Commerce">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Commerce</h5>
+                    <p>Vente d'accessoires informatiques et de matériels de librairie.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#flyer" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Précédent</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#flyer" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Suivant</span>
+        </button>
+    </section>
+
+    <!-- Section des services -->
+    <section id="services" class="container my-5">
+        <h2 class="text-center mb-4">Nos Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/reprographie-icon.jpg" class="card-img-top" alt="Reprographie">
+                    <div class="card-body">
+                        <h5 class="card-title">Reprographie</h5>
+                        <p class="card-text">Copie, saisie, conception de maquettes, photos de cartes d'identité, reliure, impression.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/informatique-icon.jpg" class="card-img-top" alt="Informatique">
+                    <div class="card-body">
+                        <h5 class="card-title">Informatique</h5>
+                        <p class="card-text">Formation et maintenance logicielle et matérielle.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/commerce-icon.jpg" class="card-img-top" alt="Commerce">
+                    <div class="card-body">
+                        <h5 class="card-title">Commerce</h5>
+                        <p class="card-text">Vente d'accessoires informatiques et de matériels de librairie.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 H2O_TECH. Tous droits réservés.</p>
+        <p>Contactez-nous : <a href="mailto:oohatab.com" class="text-white">oohatab.com</a></p>
+    </footer>
+
+    <!-- Scripts JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
